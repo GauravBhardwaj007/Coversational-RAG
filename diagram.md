@@ -97,16 +97,16 @@ graph TB
     TRANSITION --> STAGE2([Stage 2: Change Logical Levels])
 
     %% =================================================
-    %% STYLING
+    %% STYLING - WITH DARK TEXT
     %% =================================================
     %% --- Style Definitions ---
-    classDef goalState fill:#cce5ff,stroke:#66a3ff,stroke-width:2px;
-    classDef problemState fill:#e6ccff,stroke:#b366ff,stroke-width:2px;
-    classDef readinessState fill:#d4edda,stroke:#5cb85c,stroke-width:2px;
-    classDef decisionPoint fill:#fff3cd,stroke:#ffc107,stroke-width:2px;
-    classDef criticalState fill:#f8d7da,stroke:#d9534f,stroke-width:2px;
-    classDef redirectState fill:#e2e3e5,stroke:#6c757d,stroke-width:2px;
-    classDef transitionState fill:#d1ecf1,stroke:#007bff,stroke-width:2px;
+    classDef goalState fill:#cce5ff,stroke:#66a3ff,stroke-width:2px,color:#333;
+    classDef problemState fill:#e6ccff,stroke:#b366ff,stroke-width:2px,color:#333;
+    classDef readinessState fill:#d4edda,stroke:#5cb85c,stroke-width:2px,color:#333;
+    classDef decisionPoint fill:#fff3cd,stroke:#ffc107,stroke-width:2px,color:#333;
+    classDef criticalState fill:#f8d7da,stroke:#d9534f,stroke-width:2px,color:#333;
+    classDef redirectState fill:#e2e3e5,stroke:#6c757d,stroke-width:2px,color:#333;
+    classDef transitionState fill:#d1ecf1,stroke:#007bff,stroke-width:2px,color:#333;
     classDef startEndStyle fill:#6c757d,stroke:#343a40,stroke-width:2px,color:#fff;
 
     %% --- Assigning Styles to Nodes ---
