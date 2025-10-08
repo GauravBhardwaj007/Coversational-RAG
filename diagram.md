@@ -1,4 +1,4 @@
-'''mermaid
+```mermaid
 graph TB
     %% Initial Entry
     START([Client Input]) --> CLASSIFY{Input Classification<br/>System}
@@ -111,5 +111,4 @@ graph TB
     class CLASSIFY,G1_OUT,G3_OUT,P1_OUT,P3_OUT,P4_OUT,R1_OUT,R2_OUT,R3_OUT,ADVANCE1,ADVANCE2 decisionPoint
     class CRISIS,TRAUMA,STAY_SAFE criticalState
     class TRANSITION,STAGE2 transitionState
-    '''
-    
+```
